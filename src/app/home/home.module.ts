@@ -5,6 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { HeaderComponent } from '../header/header.component';
+import { SurpriseSectionComponent } from '../surprise-section/surprise-section.component';
+import { HowItWorksComponent } from '../how-it-works/how-it-works.component';
+import { FooterComponent } from '../footer/footer.component';
 
 
 @NgModule({
@@ -12,8 +16,8 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, HeaderComponent, SurpriseSectionComponent, HowItWorksComponent, FooterComponent]
 })
 export class HomePageModule {}

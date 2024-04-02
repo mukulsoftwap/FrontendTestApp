@@ -1,0 +1,28 @@
+.surprise-section{
+    background : var(--ion-color-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    h1 {
+        color: white;
+        margin: 0px;
+        width: 50%;
+        margin: auto;
+        font-size: 52px;
+    }
+    h3{
+        color: white;
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    ion-button {
+        --background: white;
+        --color: #896AF9;
+        --border-radius : 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+}
