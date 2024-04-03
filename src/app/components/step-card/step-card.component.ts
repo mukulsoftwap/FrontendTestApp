@@ -1,14 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-step-card',
+  selector: 'step-card',
   templateUrl: './step-card.component.html',
   styleUrls: ['./step-card.component.scss'],
 })
 export class StepCardComponent  implements OnInit {
 
+  @Input() data:any = '';
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log("data", this.data)
+  }
 
 }

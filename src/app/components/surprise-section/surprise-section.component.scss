@@ -1,0 +1,45 @@
+.surprise-section{
+    background : var(--ion-color-bg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    .textContainer{
+        width: 50%;
+        margin: auto;
+        h1 {
+            color: white;
+            margin: 0px;
+            font-size: 52px;
+            font-weight: 900;
+        }
+        h3{
+            color: white;
+            margin-top: 20px;
+        }
+    }
+
+    ion-button {
+        --background: white;
+        --color: #896AF9;
+        --border-radius : 10px;
+        margin-top: 40px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .surprise-section{
+        .textContainer{
+            width: 90%;
+            margin: auto;
+            h1 {
+                font-size: 40px;
+            }
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+}

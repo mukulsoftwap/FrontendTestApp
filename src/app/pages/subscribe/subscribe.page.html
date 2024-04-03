@@ -1,0 +1,130 @@
+<ion-content>
+  <div class="subscribeWrapper">
+    <div class="formContainer">
+      <h3>Subscribe</h3>
+      <p>to our Monthly Surprise Box</p>
+      <ul class="stepBreadcrumb">
+          <li class="visited">Cart</li>
+          <li class="active">Information</li>
+          <li>Shipping</li>
+          <li>Payment</li>
+      </ul>
+
+      <h3>Contact Information</h3>
+
+      <p>Your Name</p>
+
+      <ion-input
+        placeholder="e.g Osama Alshathri"
+        class="inputs">
+      </ion-input>
+
+      <p>Email</p>
+
+      <ion-input
+        placeholder="Osama@gmail.com"
+        class="inputs">
+      </ion-input>
+
+      <h3>Child’s Information</h3>
+
+      <p>Child’s Full Name</p>
+
+      <ion-input
+        placeholder="e.g Sarah Mohammad"
+        class="inputs">
+      </ion-input>
+
+      <p>Child’s Date of Birth</p>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-select aria-label="Date" placeholder="Date" interface="popover">
+              <ion-select-option value="1">1</ion-select-option>
+              <ion-select-option value="2">2</ion-select-option>
+              <ion-select-option value="3">3</ion-select-option>
+              <ion-select-option value="4">4</ion-select-option>
+              <ion-select-option value="5">5</ion-select-option>
+            </ion-select>
+          </ion-col>
+          <ion-col>
+            <ion-select aria-label="Month" placeholder="Month" interface="popover">
+              <ion-select-option value="apples">Jan</ion-select-option>
+              <ion-select-option value="oranges">Feb</ion-select-option>
+              <ion-select-option value="bananas">March</ion-select-option>
+            </ion-select>
+          </ion-col>
+          <ion-col>
+            <ion-select aria-label="Year" placeholder="Year" interface="popover">
+              <ion-select-option value="apples">1995</ion-select-option>
+              <ion-select-option value="oranges">1996</ion-select-option>
+              <ion-select-option value="bananas">1997</ion-select-option>
+            </ion-select>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <p>Grade</p>
+
+      <ion-input
+        placeholder="e.g Grade 2"
+        class="inputs">
+      </ion-input>
+
+      <p>Gender</p>
+
+      <ion-radio-group value="custom-checked">
+        <ion-radio value="custom" aria-label="Custom checkbox">Boy</ion-radio>
+        <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">Girl</ion-radio>
+      </ion-radio-group>
+
+      <ion-button expand="full">Subscribe Now</ion-button>
+
+    </div>
+    <div class="summaryContainer">
+      <h3>Summary</h3>
+      <p>of your Monthly Surprise Box</p>
+      <div class="summaryCard">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="7">
+              <p>Mystery Box </p>
+              <p class="smallText">1X</p>
+            </ion-col>
+            <ion-col class="pull-right">
+              <p>SAR 456 </p>
+              <p class="smallText">Monthly</p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="summaryTotal">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="7">
+              <p>Subtotal</p>
+              <p>Shipping</p>
+              <p>Taxes</p>
+            </ion-col>
+            <ion-col class="pull-right">
+              <p>SAR 456</p>
+              <p class="smallText">Free</p>
+              <p>SAR 4.0</p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="7">
+            <p class="totalText">Total</p>
+          </ion-col>
+          <ion-col class="pull-right">
+            <p>SAR <span class="totalText">460</span></p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

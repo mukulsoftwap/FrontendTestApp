@@ -1,0 +1,15 @@
+<section class="boxBg">
+    <div class="textWrapper">
+      <p>Discover</p>
+      <h1>How It Works: Subscribe and Receive Your Surprise Box</h1>
+      <h3>Subscribe to our surprise subscription box and give your child the gift of learning. Each month, we curate a box filled with educational materials tailored to your child's age and interests.</h3>
+    </div>
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let cardData of stepsData" size-lg="4" size-md="4" size-sm="12" size-xs="12">
+          <step-card [data]=cardData></step-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button (click)="gotoSubscribePage()">Subscribe Now</ion-button>
+</section>
