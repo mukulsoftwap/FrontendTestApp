@@ -1,0 +1,38 @@
+.footer{
+    padding: 40px;
+
+    .inline-list{
+        list-style-type: none;
+        padding: 0;
+        border-top: 1px solid #000;
+
+        li{
+            float: left;
+            font-size: 14px;
+            padding: 20px 30px 20px 0px;
+
+            &:last-of-type{
+                float: right;
+                padding : 20px 0px 20px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer{
+        padding: 40px;
+    
+        .inline-list{
+
+            li{
+                float: none;
+
+                &:last-of-type{
+                    float: none;
+                }
+            }
+        }
+
+    }
+}
